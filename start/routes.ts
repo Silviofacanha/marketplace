@@ -21,5 +21,10 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.post('criar-pessoa', 'PessoasController.criarPessoa')
+
 Route.get('listar-pessoas', 'PessoasController.listarPessoas')
+
+Route.post('adicionar-user', 'UsersController.adicionarUser')
+
+Route.post('login', 'SessionsController.login')
 
